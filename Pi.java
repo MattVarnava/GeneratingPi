@@ -3,12 +3,12 @@ import java.math.RoundingMode;
 
 public final class Pi {
 
-private static final BigDecimal TWO = new BigDecimal("2");
-private static final BigDecimal FOUR = new BigDecimal("4");
-private static final BigDecimal FIVE = new BigDecimal("5");
-private static final BigDecimal TWO_THIRTY_NINE = new BigDecimal("239");
+  private static final BigDecimal TWO = new BigDecimal("2");
+  private static final BigDecimal FOUR = new BigDecimal("4");
+  private static final BigDecimal FIVE = new BigDecimal("5");
+  private static final BigDecimal TWO_THIRTY_NINE = new BigDecimal("239");
 
-public Pi() {}
+  public Pi() {}
 
   public static BigDecimal pi(int numDigits) {
 
